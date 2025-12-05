@@ -45,9 +45,7 @@ All SQL queries used in this project are contained in the file below:
 
 ## 📊 EER Diagram
 
-Click here to download:
-<img width="629" height="455" alt="Carsharing EER Daigram" src="https://github.com/user-attachments/assets/261b7d44-c760-4ccb-9e2c-3552c5dbeb06" />
-
+Click here to download: https://github.com/GloriaData/-CarSharing-Report-with-SQL-Queries-/blob/main/Carsharing%20EER%20Daigram.png
 
 ---
 
