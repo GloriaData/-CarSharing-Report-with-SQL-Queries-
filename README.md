@@ -3,16 +3,19 @@
 ## 📌 Overview
 
 This repository contains the SQL queries and documentation for the CarSharing dataset analysis.  
-The dataset has been imported into a MySQL database named **`carsharing`** with the following tables:
+The dataset has been imported into a SQL Workbench database named **`carsharing_df`** with the following tables:
 
 1. **carsharing_df** – Main fact table  
-   *(columns: id, temp_code, weather_code, humidity, windspeed, demand)*
+   *(columns: id, workingday, holiday, temp_code, weather_code, humidity, windspeed, demand)*
 
 2. **temperature** – Temperature dimension  
-   *(columns: temp_code, temp_category)*
+   *(columns: temp, temp_feel, temp_code, temp_category)*
 
 3. **time** – Time dimension  
    *(columns: id, timestamp, season, Hour, Weekday_Name, Month_Name)*
+
+4. **weather** – Weather dimension  
+   *(columns: Weather, Weather_code)*
 
 
 ---
@@ -30,7 +33,7 @@ https://drive.google.com/drive/folders/1-QmIELgWyLW2K_sRWG3pumaQzfO7bQ3E?usp=dri
 
 All SQL queries used in this project are contained in the file below:
 
-👉 **[Click here to view the SQL Queries](queries.sql)**  
+👉 **https://github.com/GloriaData/-CarSharing-Report-with-SQL-Queries-/blob/main/Queries.sql**  
 
 ### This file includes:
 
